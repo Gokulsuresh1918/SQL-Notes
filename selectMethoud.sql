@@ -35,7 +35,8 @@ where country = 'in'
 SELECT *
 FROM user
 where country = 'in'
-    and email like h %
+    and email like h % 
+    
     /*Give  specific condition to retrive value and also check email starting by the charavcter H*/
     --@block
 SELECT *
