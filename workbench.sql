@@ -4,11 +4,33 @@ show tables;
 SELECT *
 from startbiew;
 --@block
-CREATE or replace VIEW startbiew as
-SELECT studentname,
-    age,
-    place
-from demo;
+DROP VIEW startbiew
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- CREATE or replace VIEW startbiew as
+-- SELECT studentname,
+--     age,
+--     place
+-- from demo;
 -- CREATE VIEW startbiew as
 --  SELECT studentname,age from demo;
 -- SELECT CURRENT_TIMESTAMP;
