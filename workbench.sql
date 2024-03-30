@@ -1,10 +1,35 @@
+CREATE TABLE newtable(
+    id int(10),
+    name varchar(123)
+)
+
 --@block
-show tables;
+INSERT INTO newtable
+values(1,'gokul');
+
 --@block
-SELECT *
-from startbiew;
+SELECT * FROM demo
 --@block
-DROP VIEW startbiew
+ UPDATE newtable 
+ set name='Rahul'
+ WHERE id=1;
+
+--@block
+SELECT * 
+FROM demo 
+WHERE place = 'trivandrum';
+
+ 
+ --@block
+ SELECT * from demo
+ LIMIT 2 ,2
+
+
+
+
+
+
+
 
 
 
